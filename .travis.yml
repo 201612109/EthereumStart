@@ -6,6 +6,6 @@ install:
   - nuget restore EthereumStart.sln
  
 script:
-  - xbuild ./src/EthereumStart.sln
-  - nunit-console ./src/EthereumStart.Tests/bin/Debug/EthereumStart.Tests.dll
+  - xbuild EthereumStart.sln
+  - nunit-console EthereumStart.Tests/bin/Debug/EthereumStart.Tests.dll
  
