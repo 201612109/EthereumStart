@@ -1,7 +1,5 @@
 language: csharp
 solution: EthereumStart.sln
-dotnet: 2.1.200
- msbuild /p:Configuration=Release
 
 
 
