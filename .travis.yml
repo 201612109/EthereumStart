@@ -6,6 +6,6 @@ install:
   - nuget restore EthereumStart.sln
  
 script:
-- xbuild EthereumStart.sln
+- xbuild ./EthereumStart/EthereumStart.sln
 
  
