@@ -1,9 +1,9 @@
 language: csharp
 solution: EthereumStart.sln
+dotnet: 2.1.200
  
 script:
   - dotnet restore
-  - dotnet build EthereumStart/
- 
+
 
  
