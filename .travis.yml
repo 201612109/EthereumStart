@@ -5,6 +5,7 @@ install:
   - sudo apt-get install nunit-console
   - nuget restore EthereumStart.sln
  
-
+script:
+- xbuild EthereumStart.sln
 
  
