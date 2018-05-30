@@ -1,6 +1,7 @@
 language: csharp
 solution: EthereumStart.sln
-
+script:
+  - xbuild /p:Configuration=Release EthereumStart.sln
 
 
  
