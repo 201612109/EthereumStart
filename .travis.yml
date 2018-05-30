@@ -1,9 +1,9 @@
 language: csharp
-solution: "./EthereumStart/EthereumStart.sln"
+solution: "EthereumStart.sln"
  
 install:
   - sudo apt-get install nunit-console
-  - nuget restore ./src/EthereumStart.sln
+  - nuget restore EthereumStart.sln
  
 script:
   - xbuild ./src/EthereumStart.sln
