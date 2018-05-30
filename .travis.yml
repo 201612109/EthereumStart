@@ -8,4 +8,4 @@ install:
 script:
   - xbuild ./src/EthereumStart.sln
   - nunit-console ./src/EthereumStart.Tests/bin/Debug/EthereumStart.Tests.dll
-  - mono ./EthereumStart/packages/xunit.runner.console*/tools/xunit.console.exe ./EthereumStart/EthereumStart.Tests/bin/Debug/EthereumStart.Tests.dll
+ 
